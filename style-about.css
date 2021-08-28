@@ -1,0 +1,80 @@
+.logo {
+    font-family: 'Alice', serif;
+    font-size: 1.3rem;
+}
+.nav-link {
+    color:black;
+}
+
+.navbar a:before {
+    background-color: #1687A7;
+}
+.navbar .underline:before {
+    background-color: #1687A7;
+}
+
+.image img {
+    width: 60vh;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.title {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1 {
+    position: relative;
+    left: 37%;
+    margin-top: 40px;;
+    margin-bottom: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+}
+
+.title p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    width: 95%;
+}
+
+@media screen and (max-width: 500px) {
+
+    .nav-link {
+        color: whitesmoke;
+    }
+    .navbar .exp {
+        color: whitesmoke;
+    }
+    .navbar a:before {
+        background-color: #FFFF00;
+    }
+    .navbar .underline:before {
+        background-color: #FFFF00;
+    }
+
+    .image img {
+        width: 100%;
+    }
+
+    .title h1 {
+        font-size: 2.3rem;
+        top: 100px;
+        left: 9%;
+    }
+    .title p {
+        margin-left: 2%;
+        margin-top: 120px;
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 16px;
+    }
+}
