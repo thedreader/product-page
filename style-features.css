@@ -1,0 +1,82 @@
+.logo {
+    font-family: 'Alice', serif;
+    font-size: 1.3rem;
+    margin-left: 2.5%;
+}
+
+.nav-link {
+    color:black;
+}
+
+.nav-bar a:before {
+    background-color: #1687A7;
+}
+.nav-bar .underline:before {
+    background-color: #1687A7;
+}
+
+.heading {
+    position: absolute;
+    top: 25%; 
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Roboto Slab', serif;
+}
+
+.container {
+    margin-top: 300px;
+}
+
+.container li img {
+    width: 30%;
+    position: relative;
+    bottom: 50px;
+}
+
+.container h3 {
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+}
+
+.container li {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    position: relative;
+    left: 20%;
+}
+
+.phone-colours {
+    margin-left: 20%;
+}
+
+@media screen and (max-width: 500px) {
+    .nav-link {
+        color: whitesmoke;
+    }
+    .nav-bar .exp {
+        color: whitesmoke;
+    }
+
+    .nav-bar a:before {
+        background-color: #FFFF00;
+    }
+    .nav-bar .underline:before {
+        background-color: #FFFF00;
+    }
+
+    .container li {
+        left: 15%;
+        margin-bottom: 70px;
+        font-size: 12px;
+    }
+    .container li img {
+        width: 50%;
+        height: 50%;
+        position: relative;
+        bottom: 0;
+    }
+    .container h3 {
+        width: 100%;
+    }
+}
